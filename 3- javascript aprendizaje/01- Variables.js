@@ -26,7 +26,9 @@ codigo volver a inicializarlo.
 1. var permite declarar una variable
 con el mismo nombre
 2. var me permite declarar sin 
-inicializar variable
+inicializar variable.
+3. no deja declarar una variable sin 
+inicializar.
 
 */
 
@@ -37,4 +39,24 @@ var nomre = "perro";
 var nomre = "carlos";
 
 // variable undefine o variable null
+
+//undefine; no existe o no tiene valor, 
+//o no tenemos acceso a un valor.
+
+// variable undefine 
+let pez;"undefine"
+function saltar(){
+    let tiburon="banco"; 
+    //"no tenemos 
+    //acceso a un valor"
+}
+
+// variable null
+let encendido=null;
+
+// variable const
+
+const perro="lucas";
+const perro1="perez";
+
 
