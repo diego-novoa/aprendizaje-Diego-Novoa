@@ -29,6 +29,7 @@ con el mismo nombre
 inicializar variable.
 3. no deja declarar una variable sin 
 inicializar.
+4. const no nos deja declarar una variable
 
 */
 
@@ -58,5 +59,8 @@ let encendido=null;
 
 const perro="lucas";
 const perro1="perez";
+
+let fuerza = 20;
+fuerza=30;
 
 
