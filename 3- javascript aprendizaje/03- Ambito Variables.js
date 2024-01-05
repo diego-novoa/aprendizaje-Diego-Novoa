@@ -22,11 +22,19 @@ var perro= "lucas";
 function saltar(){
   var gato= "felino"
 }
-
+console.log(gato)
 //AMBITO DE BLOQUE**************
 // Es el contexto que esta 
 // englobado dentro de un bucle
 // o condicional if
 
+// VAR
+
+let nombre="Maria"
+
+if(nombre== "Maria"){
+  var apellido="Gonzales"
+  let mascota="gato"
+}
 
 
