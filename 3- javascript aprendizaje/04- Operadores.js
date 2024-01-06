@@ -37,4 +37,31 @@ console.log(10%2) // operador de de modulo o resto
 
 // ! de negacion
 // &&
-// 
+// || operador or o 
+
+let nombre='Maria';
+let nombreMascota='pipe';
+
+if(!nombreMascota){
+  console.log(`la mascota tiene nombre  y su nombre es ${nombreMascota}`);
+}else{
+  console.log(`la moascota no tiene nombre`);
+}
+
+let nombreMujer='carla'
+let edadMujer='27'
+let estadoMujer='soltera'
+let esMujer=true
+
+if(nombreMujer=='carla' && edadMujer =='28'){
+  console.log('se cumple la condicion')
+}else{
+  console.log('No se cumple la condicion')
+}
+
+if(nombreMujer=='carla' || edadMujer =='28'){
+  console.log('se cumple la condicion')
+}else{
+  console.log('No se cumple la condicion')
+}
+
