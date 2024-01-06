@@ -11,3 +11,11 @@ let frasetotal=frase +frase2;
 console.log(frasetotal)
 document.write(frasetotal)
 
+// let sitio='al cine'
+// let frase3= `Me gusta ir mucho ${sitio}` 
+
+let sitio = 'al cine'
+let frase3='Megusta ir mucho' + sitio
+console.log(frase3)
+
+
